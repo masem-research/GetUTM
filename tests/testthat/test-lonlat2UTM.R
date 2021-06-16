@@ -1,4 +1,4 @@
-test_that("lonlat2UTM returns the right values:", {
+test_that(desc = "lonlat2UTM returns the right values:", {
 
   ## Apply the function and store the resuls
   # DWD Offenbach - should be: 32639
@@ -10,3 +10,7 @@ test_that("lonlat2UTM returns the right values:", {
   expect_equal(epsg_utm_DWD, 32639)
   expect_equal(epsg_utm_auk, 32760)
 })
+
+
+
+
