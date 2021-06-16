@@ -1,3 +1,4 @@
 ^GetUTM\.Rproj$
 ^\.Rproj\.user$
 ^README\.Rmd$
+^GetUTM\data-raw
